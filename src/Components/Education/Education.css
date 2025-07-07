@@ -1,0 +1,253 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 170px;
+    gap: 80px;
+}
+
+.education-title h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding: 0px 30px;
+}
+
+.education-section{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.education-uofc{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.education-gtu{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.education-uofc img{
+    width: 180px;
+    transition: 0.3s ease-out;
+}
+
+.education-gtu img{
+    width: 180px;
+    transition: 0.3s ease-out;
+}
+
+.education-uofc img:hover{
+    transform: scale(1.14);
+    cursor: pointer;
+    filter: drop-shadow(0 0 5px #659543);
+}
+
+.education-gtu img:hover{
+    transform: scale(1.14);
+    cursor: pointer;
+    filter: drop-shadow(0 0 5px #1818db);
+}
+
+.uofc-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gtu-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.uofc-details h2{
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #c62879 80%, #675497 100.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.uofc-details h2:hover{
+    border-bottom: 2px dashed #675497;
+}
+
+.uofc-details h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.uofc-details h3:hover{
+    text-decoration: underline;
+}
+
+.uofc-details h4{
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.uofc-details h4:hover{
+    color: #28c65f;
+    cursor: pointer;
+}
+
+.gtu-details h2{
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #c62879 80%, #675497 100.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.gtu-details h2:hover{
+    border-bottom: 2px dashed #675497;
+}
+
+.gtu-details h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.gtu-details h3:hover{
+    text-decoration: underline;
+}
+
+.gtu-details h4{
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.gtu-details h4:hover{
+    color: #28c65f;
+    cursor: pointer;
+}
+
+@media(max-width:810px){
+    .education{
+        margin: 60px;
+        gap: 60px;
+    }  
+    
+    .education-title h1{
+        font-size: 44px;
+        padding: 0;
+    }
+
+    .education-section{
+        gap: 35px;
+    }
+
+    .education-uofc img{
+        width: 140px;
+    }
+
+    .education-uofc img:hover{
+        transform: scale(1.18);
+    }
+
+    .education-gtu img{
+        width: 140px;
+    }
+
+    .education-gtu img:hover{
+        transform: scale(1.18);
+    }
+
+    .uofc-details{
+        gap: 10px;
+    }
+
+    .gtu-details{
+        gap: 10px;
+    }
+
+    .uofc-details h2, .gtu-details h2{
+        font-size: 17px;
+    }
+
+    .uofc-details h3, .gtu-details h3{
+        font-size: 15px;
+    }
+
+    .uofc-details h4, .gtu-details h4{
+        font-size: 16px;
+    }
+
+    .uofc-details h4:hover, .gtu-details h4:hover{
+        border-bottom: 1px solid #28c65f;
+    }
+
+    .uofc-details h2:hover, .gtu-details h2:hover{
+        border-bottom: 1px dashed #675497;
+    }
+}
+
+@media(max-width:768px){
+    .education{
+        margin: 50px;
+        gap: 50px;
+    }
+
+    .education-title h1{
+        font-size: 40px;
+        padding: 0;
+    }
+
+    .education-section{
+        gap: 30px;
+    }
+
+    .education-uofc img{
+        width: 130px;
+    }
+
+    .education-uofc img:hover{
+        transform: scale(1.12);
+    }
+
+    .education-gtu img{
+        width: 130px;
+    }
+
+    .education-gtu img:hover{
+        transform: scale(1.12);
+    }
+
+    .uofc-details{
+        gap: 8px;
+    }
+
+    .gtu-details{
+        gap: 8px;
+    }
+
+    .uofc-details h2, .gtu-details h2{
+        font-size: 16px;
+    }
+
+    .uofc-details h3, .gtu-details h3{
+        font-size: 14px;
+    }
+
+    .uofc-details h4, .gtu-details h4{
+        font-size: 15px;
+    }
+
+    .uofc-details h4:hover, .gtu-details h4:hover{
+        border-bottom: 1px solid #28c65f;
+    }
+
+    .uofc-details h2:hover, .gtu-details h2:hover{
+        border-bottom: 1px dashed #675497;
+    }
+}
+

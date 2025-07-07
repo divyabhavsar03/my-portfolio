@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background: linear-gradient(135deg, #1c0b2b, #000000);
+  color: white;
+  font-family: 'outfit';
+}

@@ -1,0 +1,173 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 120px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 18px;
+}
+
+.nav-connect{
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    transition: 0.3s ease-in;
+}
+
+.logo:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    background: linear-gradient(135deg, #c62879, #675497);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.2s ease-in;
+}
+
+.nav-connect:hover{
+    transform: scale(1.02);
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-menu li img{
+    margin: auto;
+    display: flex;
+}
+
+.anchor-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-mob-close{
+    display: none;
+}
+
+.nav-mob-open{
+    display: none;
+}
+
+@media(max-width:768px){
+    .navbar{
+        margin: 20px 50px;
+    }
+
+    .nav-connect{
+        display: none;
+    }
+
+    .nav-mob-open{
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
+
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 290px;
+        width: 30px;
+    }
+
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #130c26;
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -350px;
+    }
+
+    .nav-menu li{
+        font-size: 20px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+@media(max-width:1111px){
+    .navbar{
+        margin: 20px 140px;
+    }
+
+    .logo{
+        font-size: 18px;
+    }
+
+    .nav-menu{
+        font-size: 15px;
+        gap: 35px;
+    }
+
+    .nav-connect{
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+}
+
+@media(max-width:987px){
+    .navbar{
+        margin: 20px 140px;
+    }
+
+    .logo{
+        font-size: 16px;
+    }
+
+    .nav-menu{
+        font-size: 13px;
+        gap: 15px;
+    }
+
+    .nav-connect{
+        font-size: 10px;
+        padding: 15px 25px;
+    }
+}
+
+@media(max-width:830px){
+    .navbar{
+        margin: 20px 80px;
+    }
+
+    .logo{
+        font-size: 14px;
+    }
+
+    .nav-menu{
+        font-size: 12px;
+        gap: 15px;
+    }
+
+    .nav-connect{
+        font-size: 9px;
+        padding: 15px 25px;
+    }
+}

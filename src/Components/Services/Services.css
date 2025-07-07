@@ -1,0 +1,261 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+    margin: 80px 170px;
+}
+
+.services-title h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding: 0px 30px;
+}
+
+.services-format{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s ease-in;
+    cursor: pointer;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.services-format h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.services-format h2{
+    font-size: 31px;
+    font-weight: 800;
+    background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services-format p{
+    color: #d4d4d4;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 500px;
+    text-align: justify;
+}
+
+.services-format img{
+    box-sizing: border-box;
+    width: 480px;
+    height: 290px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.services-format img:hover{
+    border-radius: 40px;
+    border: 2px solid #fff;
+}
+
+.services-format .geoImg{
+    width: 480px;
+    height: 340px;
+    object-fit: contain;
+}
+
+.services-format:hover{
+    border: 2px solid #ff00ff;
+    transform: scale(1.05);
+    transition: 0.5s;
+    background-image: linear-gradient(135deg, #1a1819, #1f192f);
+}
+
+.project-carousel {
+    max-width: 500px; 
+    margin: 0 auto;
+}
+
+.project-carousel img {
+    height: 290px;
+    object-fit: contain;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    width: 100%;
+}
+
+.services-format {
+  margin-bottom: 40px;
+}
+
+@media(max-width:768px){
+    .services{
+        gap: 70px;
+        margin: 20px 30px;  /*adjusting the margin around cards*/
+        align-items: center;
+    }
+
+    .services-title h1{
+        padding: 0;
+        font-size: 40px;
+    }
+
+    .services-format{
+        gap: 10px;
+        padding: 20px auto;
+    }
+
+    .services-format h2{
+        font-size: 26px;
+    }
+
+    .services-format p{
+        font-size: 18px;
+        line-height: 28px;
+        max-width: 400px;
+        text-align: justify;
+    }
+
+    .services-container{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .services-format:hover{
+    border: 2px solid #ff00ff;
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+}
+
+@media(max-width:1280px){
+    .services-format{
+        gap: 10px;
+        padding: 10px 40px;
+    }
+
+    .services-container{
+        gap: 35px;
+    }
+
+    .services{
+        margin: 80px 130px;
+        gap: 60px;
+    }
+
+    .services-format h3{
+        font-size: 24px;
+    }
+
+    .services-format h2{
+        font-size: 27px;
+    }
+
+    .services-format p{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .services-format img{
+        width: 450px;
+        height: 290px;
+    }
+
+    .services-format .geoImg{
+    width: 460px;
+    height: 340px;
+    }
+
+    .services-format:hover{
+    transform: scale(1.04);
+    }
+}
+
+@media(max-width:1110px){
+    .services-format{
+        gap: 8px;
+        padding: 10px 35px;
+    }
+
+    .services{
+        margin: 60px 100px;
+        gap: 60px;
+    }
+
+    .services-format h3{
+        font-size: 22px;
+    }
+
+    .services-format h2{
+        font-size: 23px;
+    }
+
+    .services-format p{
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .services-container{
+        gap: 20px;
+    }
+
+    .services-format img{
+        width: 390px;
+        height: 270px;
+    }
+
+    .services-format .geoImg{
+    width: 400px;
+    height: 310px;
+    }
+
+    .services-format:hover{
+    transform: scale(1.04);
+    }
+}
+
+@media(max-width:1010px){
+    .services-format{
+        gap: 6px;
+        padding: 10px 35px;
+    }
+
+    .services-format h3{
+        font-size: 20px;
+    }
+
+    .services-format h2{
+        font-size: 21px;
+    }
+
+    .services-format p{
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .services-container{
+        gap: 13px;
+    }
+
+    .services-format img{
+        width: 310px;
+        height: 210px;
+    }
+
+    .services-format .geoImg{
+    width: 310px;
+    height: 270px;
+    }
+
+    .services-format:hover{
+    transform: scale(1.025);
+    }
+}
