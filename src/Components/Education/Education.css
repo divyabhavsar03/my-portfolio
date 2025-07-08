@@ -251,3 +251,45 @@
     }
 }
 
+@media(max-width:413px){
+    .education-uofc img{
+        width: 100px;
+    }
+
+    .education-gtu img{
+        width: 100px;
+    }
+
+    .education-uofc{
+        gap: 20px;
+    }
+
+    .education-gtu{
+        gap: 20px;
+    }
+
+    .uofc-details h2{
+        font-size: 14px;
+    }
+
+    .uofc-details h3{
+        font-size: 9.3px;
+    }
+
+    .uofc-details h4{
+        font-size: 9px;
+    }
+
+    .gtu-details h2{
+        font-size: 14px;
+    }
+
+    .gtu-details h3{
+        font-size: 9.3px;
+    }
+
+    .gtu-details h4{
+        font-size: 9px;
+    }
+}
+
