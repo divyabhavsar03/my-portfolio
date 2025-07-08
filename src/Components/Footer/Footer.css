@@ -78,3 +78,27 @@
     }
 
 }
+
+@media(max-width:413px){
+    .footer{
+        margin: 50px 50px;
+    }
+
+    .footer-title h1{
+        font-size: 30px;
+    }
+
+    .footer-info{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .footer-more{
+        gap: 80px;
+        font-size: 11px;
+    }
+
+    .footer-more p{
+        font-size: 10px;
+    }
+}
