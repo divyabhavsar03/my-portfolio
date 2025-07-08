@@ -184,14 +184,14 @@
     .nav-mob-open{
         display: block;
         position: fixed;
-        right: 70px;
+        right: 20px;
     }
 
     .nav-mob-close{
         display: block;
         position: relative;
         top: 25px;
-        left: 250px;
+        left: 280px;
         width: 30px;
     }
 }
