@@ -259,3 +259,9 @@
     transform: scale(1.025);
     }
 }
+
+@media(max-width:413px){
+    .services-title h1{
+        font-size: 32px;
+    }
+}
