@@ -13,32 +13,6 @@ const Services = () => {
       <div className="services-title">
         <h1>My Projects</h1>
       </div>
-      <h1>Web Development</h1>
-      <div className="services-container">
-        {webdevAssets.map((service, index) => (
-          <div key={index} className="services-format">
-            <h3>{service.s_no}</h3>
-            <h2>{service.s_name}</h2>
-
-            <Carousel
-              showArrows={true}
-              infiniteLoop={true}
-              showThumbs={false}
-              showStatus={false}
-              className="project-carousel"
-            >
-              {service.w_img.map((imgSrc, idx) => (
-                <div key={idx}>
-                  <img src={imgSrc} alt={`project ${index} img ${idx}`} />
-                </div>
-              ))}
-            </Carousel>
-
-            <p>{service.s_desc}</p>
-          </div>
-        ))}
-      </div>
-
       <h1>Satellite Positioning</h1>
       <div className="services-container" style={{gridTemplateColumns:"1fr", justifyContent:"center"}}>
         {satposAssets.map((service, index) => (
@@ -75,6 +49,32 @@ const Services = () => {
             <p>{service.s_desc}</p>
           </div>
         })}
+      </div>
+
+      <h1>Web Development</h1>
+      <div className="services-container">
+        {webdevAssets.map((service, index) => (
+          <div key={index} className="services-format">
+            <h3>{service.s_no}</h3>
+            <h2>{service.s_name}</h2>
+
+            <Carousel
+              showArrows={true}
+              infiniteLoop={true}
+              showThumbs={false}
+              showStatus={false}
+              className="project-carousel"
+            >
+              {service.w_img.map((imgSrc, idx) => (
+                <div key={idx}>
+                  <img src={imgSrc} alt={`project ${index} img ${idx}`} />
+                </div>
+              ))}
+            </Carousel>
+
+            <p>{service.s_desc}</p>
+          </div>
+        ))}
       </div>
     </div>
   )
