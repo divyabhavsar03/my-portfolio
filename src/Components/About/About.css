@@ -123,13 +123,10 @@
 }
 
 .skills-table th{
-    font-weight: 700;
+    font-weight: bolder;
     padding: 12px 18px;
-    background: linear-gradient(270deg, #9708be 10%, #e08027 100%);
     align-items: center;
     transition: 0.3s ease-in;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .skills-table th:hover{
