@@ -47,11 +47,11 @@ const Contact = () => {
 
             <form onSubmit={onSubmit} className="contact-right">
                 <label htmlFor="">Your Name</label>
-                <input type="text" placeholder='Enter your name' name='name' />
+                <input type="text" placeholder='Enter your name' name='name' required />
                 <label htmlFor="">Your Email</label>
-                <input type="text" placeholder='Enter your email' name='email' />
+                <input type="text" placeholder='Enter your email' name='email' required />
                 <label htmlFor="">Your message</label>
-                <textarea name="message" rows="8" placeholder='Enter your message here'></textarea>
+                <textarea name="message" rows="8" placeholder='Enter your message here' required></textarea>
                 <button type='submit' className="contact-submit">Submit now</button>
             </form>
         </div>
