@@ -33,35 +33,12 @@
     -webkit-text-fill-color: transparent;
 }
 
-.hero .hero-geo-deg-span{
-    font-weight: bold;
-    background: linear-gradient(135deg,#28beaf, #f36a38);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.hero .hero-uni-span{
-    background: linear-gradient(135deg,#be2828, #c7c706);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.hero .hero-comp-deg-span{
-    font-weight: bold;
-    color: #38e5d7;
-}
-
 .hero .hero-skill-span{
     background: linear-gradient(135deg,#a917d1, #f78a24);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.hero .hero-bottom-span{
-    background: linear-gradient(135deg,#17ced1, #e9f724);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .hero h1{
     text-align: center;
