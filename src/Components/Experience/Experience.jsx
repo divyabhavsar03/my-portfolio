@@ -16,6 +16,7 @@ const Experience = () => {
                             <h2>Teaching Assistant</h2>
                             <h3>University of Calgary, Calgary, Canada <img src="https://flagcdn.com/ca.svg" style={{ width: '24px', height: 'auto', marginLeft: '4px', alignItems: 'center', filter:'none' }} alt='flag-of-canada' /></h3>
                             <h4>ENGG 680: Introduction to Digital Engineering</h4>
+                            <h4>Assisting Dr. Hongzhou Yang in the course by supporting lab sessions, helping students with questions, grading, and encouraging academic learning.</h4>
                         </div>
                     </div>
                     <div className="experience-gtu">
