@@ -13,9 +13,9 @@ const Experience = () => {
                     <div className="experience-uofc">
                         <a href="https://ucalgary.ca/" target="_blank" rel="noopener noreferrer"><img src={uofcLogo} alt="UCalgary Logo" /></a>
                         <div className="uofc-details">
-                            <h2>Masters in Geomatics Engineering (2024 - 2026)</h2>
+                            <h2>Teaching Assistant</h2>
                             <h3>University of Calgary, Calgary, Canada <img src="https://flagcdn.com/ca.svg" style={{ width: '24px', height: 'auto', marginLeft: '4px', alignItems: 'center', filter:'none' }} alt='flag-of-canada' /></h3>
-                            <h4>Winter 2025: 4/4 GPA | Fall 2024: 3.85/4 GPA</h4>
+                            <h4>ENGG 680: Introduction to Digital Engineering</h4>
                         </div>
                     </div>
                     <div className="experience-gtu">
