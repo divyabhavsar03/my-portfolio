@@ -1,7 +1,7 @@
 import './Experience.css'
 import React from 'react'
 import uofcLogo from '../../assets/UofCLogo.png'
-import GTULogo from '../../assets/GTULogo2.png'
+import linestarLogo from '../../assets/linestar_logo.png'
 
 const Experience = () => {
   return (
@@ -20,7 +20,7 @@ const Experience = () => {
                         </div>
                     </div>
                     <div className="experience-linestar">
-                        <a href="https://gtu.ac.in/" target="_blank" rel="noopener noreferrer"><img src={GTULogo} alt="linestar-logo" /></a>
+                        <img src={linestarLogo} alt="linestar-logo" />
                         <div className="linestar-details">
                             <h2>Shopify Content Assistant</h2>
                             <h3>LineStar Utility Supply, Calgary, Canada <img src="https://flagcdn.com/ca.svg" style={{ width: '24px', height: 'auto', marginLeft: '4px', alignItems: 'center', filter:'none' }} alt='flag-of-canada' /></h3>
