@@ -1,5 +1,7 @@
 import './Experience.css'
 import React from 'react'
+import uofcLogo from '../../assets/UofCLogo.png'
+import GTULogo from '../../assets/GTULogo2.png'
 
 const Experience = () => {
   return (
