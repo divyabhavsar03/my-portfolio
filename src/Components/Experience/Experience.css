@@ -1,4 +1,4 @@
-.education{
+.experience{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,47 +7,47 @@
     gap: 80px;
 }
 
-.education-title h1{
+.experience-title h1{
     font-size: 50px;
     font-weight: 600;
     padding: 0px 30px;
 }
 
-.education-section{
+.experience-section{
     display: flex;
     flex-direction: column;
     gap: 60px;
 }
 
-.education-uofc{
+.experience-uofc{
     display: flex;
     gap: 60px;
     align-items: center;
 }
 
-.education-gtu{
+.experience-gtu{
     display: flex;
     gap: 60px;
     align-items: center;
 }
 
-.education-uofc img{
+.experience-uofc img{
     width: 180px;
     transition: 0.3s ease-out;
 }
 
-.education-gtu img{
+.experience-gtu img{
     width: 180px;
     transition: 0.3s ease-out;
 }
 
-.education-uofc img:hover{
+.experience-uofc img:hover{
     transform: scale(1.14);
     cursor: pointer;
     filter: drop-shadow(0 0 5px #659543);
 }
 
-.education-gtu img:hover{
+.experience-gtu img:hover{
     transform: scale(1.14);
     cursor: pointer;
     filter: drop-shadow(0 0 5px #1818db);
@@ -132,33 +132,33 @@
 }
 
 @media(max-width:810px){
-    .education{
+    .experience{
         margin: 60px;
         gap: 60px;
     }  
     
-    .education-title h1{
+    .experience-title h1{
         font-size: 44px;
         padding: 0;
     }
 
-    .education-section{
+    .experience-section{
         gap: 35px;
     }
 
-    .education-uofc img{
+    .experience-uofc img{
         width: 140px;
     }
 
-    .education-uofc img:hover{
+    .experience-uofc img:hover{
         transform: scale(1.18);
     }
 
-    .education-gtu img{
+    .experience-gtu img{
         width: 140px;
     }
 
-    .education-gtu img:hover{
+    .experience-gtu img:hover{
         transform: scale(1.18);
     }
 
@@ -192,33 +192,33 @@
 }
 
 @media(max-width:768px){
-    .education{
+    .experience{
         margin: 50px;
         gap: 50px;
     }
 
-    .education-title h1{
+    .experience-title h1{
         font-size: 40px;
         padding: 0;
     }
 
-    .education-section{
+    .experience-section{
         gap: 30px;
     }
 
-    .education-uofc img{
+    .experience-uofc img{
         width: 130px;
     }
 
-    .education-uofc img:hover{
+    .experience-uofc img:hover{
         transform: scale(1.12);
     }
 
-    .education-gtu img{
+    .experience-gtu img{
         width: 130px;
     }
 
-    .education-gtu img:hover{
+    .experience-gtu img:hover{
         transform: scale(1.12);
     }
 
@@ -252,19 +252,19 @@
 }
 
 @media(max-width:413px){
-    .education-uofc img{
+    .experience-uofc img{
         width: 100px;
     }
 
-    .education-gtu img{
+    .experience-gtu img{
         width: 100px;
     }
 
-    .education-uofc{
+    .experience-uofc{
         gap: 20px;
     }
 
-    .education-gtu{
+    .experience-gtu{
         gap: 20px;
     }
 

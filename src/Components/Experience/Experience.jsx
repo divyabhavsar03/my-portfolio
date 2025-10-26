@@ -5,12 +5,12 @@ import GTULogo from '../../assets/GTULogo2.png'
 
 const Experience = () => {
   return (
-    <div id='education' className='education'>
-                <div className="education-title">
+    <div id='experience' className='experience'>
+                <div className="experience-title">
                     <h1>Experience</h1>
                 </div>
-                <div className="education-section">
-                    <div className="education-uofc">
+                <div className="experience-section">
+                    <div className="experience-uofc">
                         <a href="https://ucalgary.ca/" target="_blank" rel="noopener noreferrer"><img src={uofcLogo} alt="UCalgary Logo" /></a>
                         <div className="uofc-details">
                             <h2>Masters in Geomatics Engineering (2024 - 2026)</h2>
@@ -18,7 +18,7 @@ const Experience = () => {
                             <h4>Winter 2025: 4/4 GPA | Fall 2024: 3.85/4 GPA</h4>
                         </div>
                     </div>
-                    <div className="education-gtu">
+                    <div className="experience-gtu">
                         <a href="https://gtu.ac.in/" target="_blank" rel="noopener noreferrer"><img src={GTULogo} alt="GTU-logo" /></a>
                         <div className="gtu-details">
                             <h2>Bachelors in Computer Engineering (2019 - 2023)</h2>
