@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-.experience-gtu{
+.experience-linestar{
     display: flex;
     gap: 60px;
     align-items: center;
@@ -36,7 +36,7 @@
     transition: 0.3s ease-out;
 }
 
-.experience-gtu img{
+.experience-linestar img{
     width: 180px;
     transition: 0.3s ease-out;
 }
@@ -47,7 +47,7 @@
     filter: drop-shadow(0 0 5px #659543);
 }
 
-.experience-gtu img:hover{
+.experience-linestar img:hover{
     transform: scale(1.14);
     cursor: pointer;
     filter: drop-shadow(0 0 5px #1818db);
@@ -59,7 +59,7 @@
     gap: 10px;
 }
 
-.gtu-details{
+.linestar-details{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -98,7 +98,7 @@
     cursor: pointer;
 }
 
-.gtu-details h2{
+.linestar-details h2{
     font-size: 24px;
     font-weight: 700;
     background: linear-gradient(270deg, #c62879 80%, #675497 100.6%);
@@ -107,26 +107,26 @@
     cursor: pointer;
 }
 
-.gtu-details h2:hover{
+.linestar-details h2:hover{
     border-bottom: 2px dashed #675497;
 }
 
-.gtu-details h3{
+.linestar-details h3{
     font-size: 16px;
     font-weight: 400;
 }
 
-.gtu-details h3:hover{
+.linestar-details h3:hover{
     text-decoration: underline;
 }
 
-.gtu-details h4{
+.linestar-details h4{
     font-size: 17px;
     font-weight: 500;
     transition: 0.2s;
 }
 
-.gtu-details h4:hover{
+.linestar-details h4:hover{
     color: #28c65f;
     cursor: pointer;
 }
@@ -154,11 +154,11 @@
         transform: scale(1.18);
     }
 
-    .experience-gtu img{
+    .experience-linestar img{
         width: 140px;
     }
 
-    .experience-gtu img:hover{
+    .experience-linestar img:hover{
         transform: scale(1.18);
     }
 
@@ -166,27 +166,27 @@
         gap: 10px;
     }
 
-    .gtu-details{
+    .linestar-details{
         gap: 10px;
     }
 
-    .uofc-details h2, .gtu-details h2{
+    .uofc-details h2, .linestar-details h2{
         font-size: 17px;
     }
 
-    .uofc-details h3, .gtu-details h3{
+    .uofc-details h3, .linestar-details h3{
         font-size: 15px;
     }
 
-    .uofc-details h4, .gtu-details h4{
+    .uofc-details h4, .linestar-details h4{
         font-size: 16px;
     }
 
-    .uofc-details h4:hover, .gtu-details h4:hover{
+    .uofc-details h4:hover, .linestar-details h4:hover{
         border-bottom: 1px solid #28c65f;
     }
 
-    .uofc-details h2:hover, .gtu-details h2:hover{
+    .uofc-details h2:hover, .linestar-details h2:hover{
         border-bottom: 1px dashed #675497;
     }
 }
@@ -214,11 +214,11 @@
         transform: scale(1.12);
     }
 
-    .experience-gtu img{
+    .experience-linestar img{
         width: 130px;
     }
 
-    .experience-gtu img:hover{
+    .experience-linestar img:hover{
         transform: scale(1.12);
     }
 
@@ -226,27 +226,27 @@
         gap: 8px;
     }
 
-    .gtu-details{
+    .linestar-details{
         gap: 8px;
     }
 
-    .uofc-details h2, .gtu-details h2{
+    .uofc-details h2, .linestar-details h2{
         font-size: 16px;
     }
 
-    .uofc-details h3, .gtu-details h3{
+    .uofc-details h3, .linestar-details h3{
         font-size: 14px;
     }
 
-    .uofc-details h4, .gtu-details h4{
+    .uofc-details h4, .linestar-details h4{
         font-size: 15px;
     }
 
-    .uofc-details h4:hover, .gtu-details h4:hover{
+    .uofc-details h4:hover, .linestar-details h4:hover{
         border-bottom: 1px solid #28c65f;
     }
 
-    .uofc-details h2:hover, .gtu-details h2:hover{
+    .uofc-details h2:hover, .linestar-details h2:hover{
         border-bottom: 1px dashed #675497;
     }
 }
@@ -256,7 +256,7 @@
         width: 100px;
     }
 
-    .experience-gtu img{
+    .experience-linestar img{
         width: 100px;
     }
 
@@ -264,7 +264,7 @@
         gap: 20px;
     }
 
-    .experience-gtu{
+    .experience-linestar{
         gap: 20px;
     }
 
@@ -280,15 +280,15 @@
         font-size: 9px;
     }
 
-    .gtu-details h2{
+    .linestar-details h2{
         font-size: 14px;
     }
 
-    .gtu-details h3{
+    .linestar-details h3{
         font-size: 9.3px;
     }
 
-    .gtu-details h4{
+    .linestar-details h4{
         font-size: 9px;
     }
 }
