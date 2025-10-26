@@ -38,6 +38,7 @@
 
 .experience-linestar img{
     width: 180px;
+    border-radius: 50%;
     transition: 0.3s ease-out;
 }
 
